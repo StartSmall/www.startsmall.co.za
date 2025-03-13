@@ -2,6 +2,11 @@ backend:
   name: github
   repo: StartSmall/www.startsmall.co.za
   branch: master # or your default branch
+  auth_type: implicit # Use implicit grant for GitHub Pages
+  app_id: Ov23liAgdv9khXm1mwAq # Replace with your Client ID
+  api_root: https://api.github.com
+  base_url: https://github.com
+  auth_endpoint: login/oauth/authorize
 media_folder: "static/images" # Folder for uploaded images
 public_folder: "/images" # Public path for images
 collections:
